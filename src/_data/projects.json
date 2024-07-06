@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Reliance JIO",
+    "description": "Data Analyst Intern",
+    "image": "/projectImages/reredjio.jpg",
+    "image2": "/projectImages/image1.png",
+    "image3": "/projectImages/routes3.png",
+    "body": "• Utilized Epstein Peterson Multiple Knife edge diffraction and GTD models to accurately calculate and predict 5G transmission path loss, contributing to optimized network coverage and performance.\n• Leveraged geopandas and shapely libraries for efficient spatial data processing and visualization, enhancing the credibility and clarity of analysis in geospatial contexts.\n• Responsible for handling and analyzing grid data for Ahmedabad and Chennai, tailoring analysis to specific urban landscapes and providing targeted recommendations for 5G network optimization.\n\nThe iterative process of comparing SNR and BER values obtained from the path loss prediction model with measured or desired values allows for adjustments and optimizations, leading to improved accuracy. This refinement of the model enables better alignment with real-world scenarios and variations in signal quality.",
+    "technologies": [
+      "Python",
+      "EPMKD",
+      "GTD models",
+      "Geopandas",
+      "Spatial data processing",
+      "Spatial data visualization"
+    ],
+    "github": "https://github.com/mdyeates/bike-buddy",
+    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "bgcolor": "var(--hl2-color)",
+    "id": "1"
+  },
+  {
+    "title": "Reliance JIO (cnt)",
+    "description": "Data Science Intern",
+    "image": "/projectImages/bluejio.png",
+    "image2": "/projectImages/hugface.png",
+    "image3": "/projectImages/weather3.png",
+    "technologies": [
+        "Python",
+        "Transformers Library: HuggingFace Models",
+        "Clustering Algorithms: K-means, DBSCAN",
+        "Sentence Classifiers",
+        "Pipeline"
+    ],
+    "body": "Clustering for Data Organization\n\nInitially, we employed clustering algorithms such as K-means and DBSCAN to organize similar feedback into cohesive groups. This step was pivotal in structuring our approach, as it allowed us to identify distinct aspects or themes within the feedback data automatically.\n\nAspect Classification using Sentence Classifiers\n\nWith clustered feedback in hand, we developed and trained sentence classifiers tailored to recognize specific aspects of interest. These classifiers were designed to assign each feedback instance to one of five manually created aspects, ensuring a nuanced understanding of customer sentiment across various dimensions.\n\nManual Labeling for Validation\n\nTo validate the accuracy of our classification approach, we manually labeled a substantial dataset of 1000 feedback entries. This rigorous process not only confirmed the robustness of our classifiers but also provided a benchmark for evaluating the performance of subsequent sentiment analysis tasks.\n\nSentiment Analysis across Aspect Clusters\n\nOnce classified, we performed sentiment analysis on each aspect cluster independently. This approach enabled us to discern sentiment trends associated with different aspects of customer experience, offering actionable insights for product enhancement and service optimization.\n\nConclusion\n\nOur project on Aspect Based Sentiment Analysis exemplifies an integrated approach to understanding customer feedback, leveraging clustering, classification, and sentiment analysis techniques. By systematically analyzing feedback across predefined aspects, we empower businesses to make data-driven decisions that resonate with customer expectations and preferences.",
+    "github": "https://github.com/mdyeates/weather-app",
+    "deployed": "https://mdyeates.github.io/weather-app/",
+    "bgcolor": "var(--hl-color)",
+    "id": "2"
+  },
+  
+  {
+    "title": "Data Analytics Project 1",
+    "description": "--",
+    "image": "/projectImages/team.png",
+    "image2": "/projectImages/teamcelebrating.jpeg",
+    "image3": "/projectImages/team3.png",
+    "technologies": ["JavaScript", "Node", "Bootstrap", "Testing"],
+    "body": "This Node.js command-line application generates an interactive team dashboard from user-provided data. It accepts information about team members and outputs a dynamic HTML page profiling the entire group.\nRather than relying on static spreadsheets, this tool creates a customizable web page that brings employee data to life. The dashboard auto-populates with profiles for each team member, containing details provided via the command-line input.\nBuilt on Node.js, this project demonstrates skills in crafting web applications using JavaScript-based server-side frameworks. It handles input data dynamically to render an animated, engaging profile of the entire team. The end result is an shareable HTML page that serves as a creative alternative to traditional spreadsheet-based team overviews.",
+    "github": "https://github.com/mdyeates/team-dashboard",
+    "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "Data Analytics Project 2",
+    "description": "--",
+    "image": "/projectImages/quiz.png",
+    "image2": "/projectImages/javascript.jpeg",
+    "image3": "/projectImages/quiz3.png",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "body": "This application tests JavaScript knowledge through a timed, question-based quiz. Users are presented with 5 random questions and have 50 seconds to complete the quiz. The remaining time at completion determines the final score, rewarding both accuracy and speed.\nTo add challenge, the timer is reduced by 10 seconds for each incorrect answer. This creates urgency to answer carefully within the time limit. Questions are drawn randomly from a pool to ensure variety upon each attempt.\nBuilt using JavaScript, this project provides hands-on experience creating a responsive quiz application. Key learning outcomes include: \n➤ Generating random questions from a pool of options\n➤ Implementing a countdown timer with penalty deductions\n➤ Calculating scores based on time remaining\n➤ Providing interactive quiz feedback to users\nOverall, this application allows users to test their JavaScript skills through an engaging, time-pressured quiz interface. Both code knowledge and quick thinking are required to achieve a top score.",
+    "github": "https://github.com/mdyeates/coding-quiz",
+    "deployed": "https://mdyeates.github.io/coding-quiz/",
+    "bgcolor": "#f85781",
+    "id": "4"
+  },
+
+  {
+    "title": "Data Analytics Project 3",
+    "description": "F1 Hub",
+    "image": "/projectImages/P1.png",
+    "image2": "/projectImages/f1.jpeg",
+    "image3": "/projectImages/p13.png",
+    "body": "P1 is a web application designed to be a hub for Formula 1 fans. It brings together news, standings, and an interactive card game in one platform.\nThe app features a responsive layout with animated, polished visuals to provide an immersive user experience. The news section stays up-to-date on the latest happenings in the F1 world.\nThe centerpiece is a card game that puts users' F1 knowledge to the test in a competitive, engaging format. Game mechanics reward expertise in drivers, teams, and racing trivia.\nBuilt using modern web development tools, this project shows skills in:\n➤ Creating visually appealing, animated interfaces\n➤ Integrating real-time data feeds and news\n➤ Developing interactive game mechanics with competitive elements\n➤ Providing an all-in-one web app for a niche audience\nOverall, P1 aims to establish an exciting online space for Formula 1 fans to follow the sport, connect with a community, and test their expert knowledge.",
+    "technologies": ["React", "Framer Motion", "Bootstrap", "HTML", "CSS"],
+    "github": "https://github.com/Jake-W95/P1",
+    "deployed": "https://p1-heroes.netlify.app/",
+    "bgcolor": "#e47911",
+    "id": "5"
+  },
+
+  {
+    "title": "Data Analytics Project 4",
+    "description": "Conquer your day",
+    "image": "/projectImages/planner.png",
+    "image2": "/projectImages/workplanner.jpeg",
+    "image3": "/projectImages/planner3.png",
+    "technologies": ["JavaScript", "Moment", "Bootstrap", "HTML", "CSS"],
+    "body": "The Daily Planner App aims to help users maximize productivity and organization. Its intuitive interface enables easy scheduling of appointments and meetings, ensuring nothing gets missed during busy work days.\nThe app goes beyond basic calendar features to set the right mood for different times of day. It automatically transitions between color schemes from morning to evening. To-do items persist in the app, allowing users to revisit pending tasks when needed.\nBuilt with modern web development tools, this project demonstrates skills in crafting responsive web applications with dynamic interfaces. Key learning outcomes include implementing time-based design changes, enabling persistent data storage, and creating an intuitive user experience for scheduling and task management.\nBy combining useful calendar functionality with ambient visual changes and persistent to-dos, the Daily Planner App strives to keep users on track, in the right headspace, and focused on conquering each day more effectively. The end result is a tool to help make the most of every hour.",
+    "github": "https://github.com/mdyeates/daily-planner",
+    "deployed": "https://mdyeates.github.io/daily-planner/",
+    "bgcolor": "#3e67ff",
+    "id": "6"
+  }
+]
